@@ -44,5 +44,5 @@ sdata = analogRead(vr);
 myString = String(sdata); 
 Serial.println(myString); 
 Firebase.setString("Variable/Value",myString);
-delay(1000);            
+delay(2000);            
 }
